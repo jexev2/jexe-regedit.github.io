@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #333;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #00aaff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #007acc;
+    transform: scale(1.1);
+}
+
+.button.disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.currency-converter {
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.currency-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #00aaff;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.currency-select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #00aaff;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.converted-price {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.features {
+    margin: 20px 0;
+    font-size: 1rem;
+    color: #444;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features li {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.features li:before {
+    content: '✓';
+    color: #00aaff;
+    margin-right: 10px;
+}
+
+.note, .note-payment, .note-whatsapp {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.payment-methods img {
+    width: 30px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
